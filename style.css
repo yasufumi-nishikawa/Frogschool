@@ -1,0 +1,945 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1.7em !important;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* リセットCSS */
+body {
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  padding: 10px 0px;
+}
+
+p {
+  font-weight: 300;
+}
+/* ヘッダー */
+header {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  color: white;
+  height: 600px;
+  background-image: url(image/bg-header.jpg);
+  background-size: cover;
+  z-index: 2;
+}
+
+.black-box {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  top: 0px;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+video {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  width: 77%;
+  height: 100%;
+  right: 210px;
+  object-fit: cover;
+}
+.header-word {
+  position: relative;
+  z-index: 3;
+}
+
+.logo-btn {
+  padding-top: 30px;
+  position: relative;
+  right: 20px;
+}
+
+.logo-btn button {
+  margin-left: 20px;
+  color: white;
+  width: 155px;
+  height: 45px;
+  border: 1px solid white;
+}
+
+.logo-btn a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #6fc173;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  position: relative;
+  top: -10px;
+  margin-right: 5px;
+}
+
+.logo:hover {
+  color: #8da788;
+}
+
+.logo:hover .frog-logo {
+  color: #8da788;
+}
+
+.res-logo {
+  display: none;
+}
+
+.frog-logo {
+  font-size: 45px;
+  position: relative;
+  top: 10px;
+  color: #6fc173;
+  right: 5px;
+}
+
+.podcast-btn:hover {
+  background-color: white;
+  color: white;
+}
+
+.btn:hover {
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logo-btn button a {
+  color: white;
+}
+
+header h1 {
+  margin-top: 80px;
+}
+
+.header-p {
+  margin-top: 30px;
+}
+
+.p-br::before {
+  content: "\A";
+  white-space: pre;
+}
+
+header h4 {
+  margin-top: 30px;
+}
+
+.application-btn1 {
+  background-color: #6fc173;
+  width: 210px;
+  height: 55px;
+  border-radius: 5px;
+  font-size: 24px;
+  border: #6fc173;
+  box-shadow: #449f49 0px 3px;
+}
+
+a .application-btn1 {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-hover {
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 135px;
+  width: 210px;
+  height: 55px;
+}
+
+.btn-hover :hover {
+  padding-top: 5px;
+}
+
+.btn-hover:hover .application-btn1 {
+  box-shadow: none;
+}
+
+/* コース概要 */
+.course {
+  padding-left: 440px;
+  padding-right: 440px;
+}
+.course {
+  margin-top: 50px;
+}
+
+.c-p1 {
+  margin-top: 30px;
+}
+
+.course-3p {
+  margin-top: 40px;
+  margin-bottom: 115px;
+}
+
+.course-img {
+  border-radius: 5px;
+}
+
+.course-3p h4 {
+  margin-top: 20px;
+}
+
+.course-3p p {
+  margin-top: 30px;
+}
+
+/* バンクーバーってどんな街？ */
+.v-jumbotron {
+  background-size: cover;
+}
+.vancouver-city {
+  padding-top: 100px;
+  padding-bottom: 420px;
+  padding-left: 440px;
+  padding-right: 440px;
+  color: white;
+}
+
+.v-c-p1 {
+  margin-top: 50px;
+}
+
+.v-c-p2 {
+  margin-top: 40px;
+}
+
+/* カリキュラム */
+.curriculum {
+  margin-top: 100px;
+  padding-left: 440px;
+  padding-right: 440px;
+}
+
+.curriculum h4 {
+  margin-top: 60px;
+}
+
+.curriculum p {
+  text-align: left;
+}
+
+.cu-p1 {
+  margin-top: 50px;
+}
+
+.text-a {
+  color: #5fb3c1;
+}
+
+.text-a:hover {
+  color: #65a0ab;
+}
+
+.cu-p2,
+.cu-p3 {
+  margin-top: 30px;
+}
+
+.danger-p {
+  font-size: 12px;
+  text-align: left;
+  margin-top: -15px;
+  line-height: 1.5;
+}
+
+.step-img {
+  position: relative;
+  top: 30px;
+}
+
+.curriculum .table-borderless td {
+  padding: 0px;
+  margin: 0px;
+}
+
+.step-left-td {
+  position: relative;
+  right: 10px;
+}
+
+.cu-step p {
+  position: relative;
+  top: -10px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.step-ex {
+  margin-top: -10px;
+  width: 260px;
+}
+
+/* コース内容 */
+.course-contents {
+  margin-top: 30px;
+}
+
+.color-table {
+  background-color: #f8f7f1;
+  table-layout: fixed;
+}
+.c-c-left-td {
+  width: 10%;
+}
+
+/* ２週間のスケジュール */
+.schedule {
+  margin-top: 40px;
+}
+
+.day {
+  width: 40px;
+}
+
+.table {
+  margin-bottom: 0px !important;
+}
+
+.danger-2 {
+  margin-top: 20px;
+}
+
+/* 英会話講座 */
+.e-c-container {
+  margin-top: 40px;
+}
+
+.col-md-3 {
+  padding: 0px !important;
+}
+
+.col-md-9 {
+  padding-right: 0px !important;
+}
+
+.e-c-p {
+  padding-left: 20px;
+  padding-right: 0px;
+  margin: 0px;
+}
+
+/* バンクーバーで見つける、新しい自分。 */
+.green-jumbotron1 {
+  margin-top: 150px;
+  padding-top: 100px;
+  height: 360px;
+}
+.green-box1 {
+  background-color: rgb(73, 166, 189);
+  opacity: 0.8;
+  padding-top: 100px;
+  position: relative;
+  top: -100px;
+  height: 360px;
+  z-index: 10;
+}
+
+.green-jumbotron1 h1 {
+  position: relative;
+  top: -350px;
+  z-index: 10;
+}
+
+.application-btn2 {
+  background-color: #76df7c;
+  width: 210px;
+  height: 55px;
+  border-radius: 5px;
+  font-size: 24px;
+  border: #6fc173;
+  box-shadow: #449f49 0px 3px;
+  position: relative;
+  top: -350px;
+  z-index: 10;
+}
+
+.btn-hover2 {
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 110px;
+  width: 210px;
+  height: 55px;
+}
+
+.btn-hover2:hover {
+  padding-top: 5px;
+}
+
+a .application-btn2 {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-hover2:hover .application-btn2 {
+  box-shadow: none;
+}
+
+/* 受講者の声 */
+.voice {
+  margin-top: 100px;
+  padding-left: 440px;
+  padding-right: 440px;
+}
+.voice h1 {
+  margin-bottom: 30px;
+}
+
+.col-md-2 {
+  padding: 0px !important;
+}
+
+.col-md-2 p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.circle-img {
+  border-radius: 50%;
+  width: 140px;
+}
+
+.col-md-10 {
+  width: 620px !important;
+  padding-top: 30px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  text-align: left;
+  background-color: #f8f7f1;
+  border-radius: 5px;
+  position: relative;
+  left: 30px;
+}
+
+.col-md-10::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #f8f7f1;
+}
+
+.voice-1 {
+  margin-bottom: 50px;
+}
+
+/* 講師紹介 */
+.teacher {
+  margin-top: 100px;
+  padding-top: 100px;
+  background-color: #f8f7f1;
+  padding-left: 440px;
+  padding-right: 440px;
+  padding-bottom: 110px;
+}
+
+.teacher h4 {
+  margin-top: 50px;
+  font-weight: 300;
+}
+
+.h4-br::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.teacher .col-md-4 {
+  margin-top: 30px;
+}
+
+.teacher .circle-img {
+  width: 200px;
+}
+
+/* 受講までのステップ */
+.attendance {
+  margin-top: 100px;
+  padding-left: 440px;
+  padding-right: 440px;
+  padding-bottom: 110px;
+}
+
+.attendance h1 {
+  margin-bottom: 40px;
+}
+
+.circle-number {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #5fb3c1;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.circle-number1 {
+  position: relative;
+  top: -50px;
+}
+
+.circle-number2 {
+  position: relative;
+  top: -80px;
+}
+
+.circle-number3,
+.circle-number4,
+.circle-number5 {
+  position: relative;
+  top: -77px;
+}
+
+.circle-number6 {
+  position: relative;
+  top: -130px;
+}
+
+.attendance .col-md-6 {
+  text-align: left;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.a-right-list {
+  width: 320px;
+  position: relative;
+  top: 5px;
+}
+
+/* 自信を持って帰国しよう。 */
+.green-jumbotron2 {
+  padding-top: 100px;
+  width: 95%;
+  margin: 0 auto;
+  height: 360px;
+}
+.green-box2 {
+  background-color: rgb(73, 166, 189);
+  opacity: 0.8;
+  height: 360px;
+  position: absolute;
+  top: 10070px;
+  width: 95%;
+}
+
+.green-jumbotron2 h1 {
+  position: relative;
+}
+
+.application-btn3 {
+  background-color: #6fc173;
+  width: 210px;
+  height: 55px;
+  border-radius: 5px;
+  font-size: 24px;
+  border: #6fc173;
+  box-shadow: #449f49 0px 3px;
+  z-index: 100;
+  position: relative;
+}
+
+.btn-hover3 {
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 110px;
+  width: 210px;
+  height: 55px;
+}
+
+.btn-hover3:hover {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+a .application-btn3 {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-hover3:hover .application-btn3 {
+  box-shadow: none;
+}
+
+/* これから必要とされるのは */
+.global {
+  padding: 0 440px;
+  margin-top: 100px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.global h1 {
+  line-height: 1.75;
+}
+
+.global p {
+  text-align: left;
+}
+
+.b-h1-br::before {
+  content: "\A";
+  white-space: pre;
+}
+
+/* 料金 */
+.fee {
+  margin-top: 100px;
+  padding: 100px 440px;
+  background-color: #f8f7f1;
+}
+
+.fee .container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.fee .col-md-4 {
+  margin-top: 40px;
+  width: 220px;
+}
+
+.van-en,
+.van-web {
+  margin-left: 70px;
+}
+
+.fee .text-white {
+  background-color: #6fc173;
+  border-top: 1px solid #e5e5d1;
+  border-left: 1px solid #e5e5d1;
+  border-right: 1px solid #e5e5d1;
+  margin-bottom: 0px;
+}
+
+del {
+  color: #cccccc;
+}
+
+.target-p {
+  padding: 10px 0px;
+  font-weight: 800;
+}
+
+.fee-f {
+  padding: 30px 0px;
+}
+
+.impact {
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.fee-p {
+  background-color: white;
+  border-top: 1px solid #e5e5d1;
+  border-left: 1px solid #e5e5d1;
+  border-right: 1px solid #e5e5d1;
+  margin-bottom: 0px;
+  padding: 10px 0px;
+}
+
+.fee-danger {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.last-fee-p {
+  border-bottom: 1px solid #e5e5d1;
+}
+
+/* よくある質問*/
+.question {
+  margin-top: 100px;
+  padding: 0px 440px;
+}
+
+.question h1 {
+  margin-bottom: 40px;
+}
+
+.question h4,
+.question p {
+  text-align: left;
+}
+
+.question h4 {
+  margin-top: 40px;
+}
+
+/* お申し込み */
+.contact {
+  margin-top: 100px;
+  padding: 0px 440px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f8f7f1;
+}
+
+.contact h1 {
+  margin-bottom: 40px;
+}
+
+/* フッター */
+footer {
+  padding: 50px 440px;
+  background-color: #2b3e42;
+}
+
+footer .footer-p {
+  display: flex;
+  list-style: none;
+}
+
+footer .footer-logo {
+  display: flex;
+  list-style: none;
+}
+
+.footer-p {
+  padding-left: 250px;
+}
+
+.footer-a {
+  color: #5fb3c1;
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+.footer-p1 {
+  position: relative;
+  left: 10px;
+}
+
+.footer-p2 {
+  margin-left: 30px;
+}
+
+.footer-p3 {
+  position: relative;
+  left: 20px;
+}
+
+.footer-logo {
+  margin-top: 30px;
+  font-size: 60px;
+}
+
+.footer-logo1 {
+  color: #6fc173;
+  margin-right: 0px;
+  margin-left: 220px;
+}
+
+.footer-logo2 {
+  color: #6fc173;
+  margin-left: 40px;
+}
+
+.footer-logo3 {
+  color: white;
+  margin-left: 40px;
+}
+
+.logo1 :hover {
+  color: #449f49;
+}
+
+.logo2 :hover {
+  color: #449f49;
+}
+
+.logo3 :hover {
+  color: #e5e5d1;
+}
+
+.copyright {
+  margin-top: 50px;
+  color: #8d9696;
+  font-size: 13px;
+}
